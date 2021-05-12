@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<title>Masterio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+		
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="../static/css1/style.css">
+    <link rel="stylesheet" href="../static/css2/style.css">
+  </head>
+  <body>
+		
+		<div class="wrapper d-flex align-items-stretch">
+			<nav id="sidebar">
+				<div class="custom-menu">
+					<button type="button" id="sidebarCollapse" class="btn btn-primary">
+	          <i class="fa fa-bars"></i>
+	          <span class="sr-only">Toggle Menu</span>
+	        </button>
+        </div>
+	  		<h1><a href="index2.html" class="logo">Instructor Dashboard</a></h1>
+        <ul class="list-unstyled components mb-5">
+          <li>
+            <a href="index2.html"><span class="fa fa-dashboard" aria-hidden="true"></span>Dashboard </a>
+          </li>
+          <li>
+            <a href="#"><span class="fa fa-user  " aria-hidden="true"></span>media manager</a>
+        </li>
+          <li >
+            
+              <a class="nav-link" data-toggle="collapse" href="#page-layouts" aria-expanded="false" aria-controls="page-layouts">
+                <i class="fa fa-book " aria-hidden="true">Courses</i>
+                <span class="menu-title"></span>
+                <i class="menu-arrow"></i>
+              </a>
+              <div class="collapse" id="page-layouts">
+                <ul class="nav flex-column sub-menu">
+                  <li class="nav-item"> <a class="nav-link" href="addnewcourse.html">*start new course</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="courseview.html">*All courses</a></li>
+                  
+                </ul>
+              </div>
+          </li>
+         
+          <li>
+            <a class="nav-link" data-toggle="collapse" href="#sidebar-layouts" aria-expanded="false" aria-controls="sidebar-layouts">
+              <i class="fa fa-laptop" aria-hidden="true"></i>
+              <span class="menu-title">Zoom meeting</span>
+              <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="sidebar-layouts">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item"> <a class="nav-link" href="zoom.html">*Zoom Setup</a></li>
+                <li class="nav-item"> <a class="nav-link" href="">*Zoom Dashboard</a></li>
+                <li class="nav-item"> <a class="nav-link" href="">*Create Meeting</a></li>
+               
+
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="#"><span class="fa fa-question-circle " aria-hidden="true"></span> Quiz</a>
+          </li>
+          <li>
+            <a href="allstudent.html"><span class="fa fa-users" aria-hidden="true"></span>students </a>
+          </li>
+          <li>
+            <a href="#"><span class="fa fa-envelope" aria-hidden="true"></span>message</a>
+          </li>
+          <li>
+            <a href="coursecomment.html"><span class="fa fa-comments" aria-hidden="true"></span> comments</a>
+          </li>
+          <li>
+            <a href="#"><span class="fa fa-dollar-sign" aria-hidden="true"></span>Request Payment</a>
+          </li>
+          <li>
+            <a href="#"><span class="fa fa-dollar-sign aria-hidden"></span>Earning history</a>
+          </li>
+          <li>
+            <a href="#"><span class="fa fa-envelope-open aria-hidden"></span>Support ticket</a>
+          </li>
+          <li>
+            <a href="#"><span class="fa fa-cog aria-hidden"></span>Setting</a>
+          </li>
+          <li>
+            <a href="#"><span class="fa fa-question-circle aria-hidden"></span>Forum manager</a>
+          </li>
+          <li>
+            <a href="#"><span class="fa fa-list aria-hidden"></span>Subscription manager</a>
+          </li>
+         
+        </ul>
+
+    	</nav>
+
+        <!-- Page Content  -->
+      <div id="content" class="p-4 p-md-5 pt-5">
+        <!-- partial -->
+<div class="main-panel">        
+  <div class="content-wrapper">
+    <div class="page-header">
+      <h3 class="page-title">
+          Form elements
+      </h3>
+    
+    </div>
+    <div class="row">
+      <div class="col-md-6 grid-margin stretch-card">
+          <div class="card">
+            <div class="card-body">
+              <h4 class="card-title">Add New Course</h4>
+              <p class="card-description">
+                
+              </p>
+              <form class="forms-sample"; width="50%">
+                <div class="form-group row">
+                  <label for="exampleInputUsername2" class="col-sm-3 col-form-label">Course title</label>
+                  <div class="col-sm-9">
+                    <input type="text" class="form-control" id="exampleInputUsername2" placeholder="Enter course title" required>
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="exampleInputEmail2" class="col-sm-3 col-form-label">Slug</label>
+                  <div class="col-sm-9">
+                    <input type="email" class="form-control" id="exampleInputEmail2" required>
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label class="col-sm-3 col-form-label">Course level</label>
+                  <div class="col-sm-9">
+                    <select class="form-control">
+                      <option>select level</option>
+                      <option>Italy</option>
+                      <option>Russia</option>
+                      <option>Britain</option>
+                    </select>
+                  </div>
+                </div>      
+                <div class="form-group">
+                  <label for="exampleTextarea1">Short description</label>
+                  <textarea class="form-control" id="exampleTextarea1" rows="4"></textarea>
+                </div>  
+                <div class="form-group row">
+                  <label for="exampleInputConfirmPassword2" class="col-sm-3 col-form-label">Course thumbnail</label>
+                  <div class="col-sm-9">
+                    <button class="btn btn-primary">Upload </button>
+                  </div>
+                </div>
+                      
+               
+       
+                <div class="form-group row">
+                  <label for="exampleInputMobile" class="col-sm-3 col-form-label">Overview URL</label>
+                  <div class="col-sm-9">
+                    <input type="text" class="form-control" id="exampleInputMobile"placeholder="overview URL" required>
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label class="col-sm-3 col-form-label">Provider</label>
+                  <div class="col-sm-9">
+                    <select class="form-control">
+                      <option>CHOOSE OPTION</option>
+                      <option>Italy</option>
+                      <option>Russia</option>
+                      <option>Britain</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="exampleInputPassword2" class="col-sm-3 col-form-label">Requirements</label>
+                  <div class="col-sm-9">
+                    <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Enter requirements" required>
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="exampleInputConfirmPassword2" class="col-sm-3 col-form-label">Outcome</label>
+                  <div class="col-sm-9">
+                    <input type="password" class="form-control" id="exampleInputConfirmPassword2" placeholder="Enter outcome">
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="exampleInputConfirmPassword2" class="col-sm-3 col-form-label">Tags</label>
+                  <div class="col-sm-9">
+                    <input type="password" class="form-control" id="exampleInputConfirmPassword2" placeholder="Enter tags">
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="exampleInputConfirmPassword2" class="col-sm-3 col-form-label">Free course</label>
+                  <div class="col-sm-9">
+                    <label class="switch">
+                      <input type="checkbox" >
+                      <span class="slider"></span>
+                    </label>
+                  </div>
+                </div>
+                 
+                
+                <div class="form-group row">
+                  <label for="exampleInputConfirmPassword2" class="col-sm-3 col-form-label">Price?</label>
+                </div>
+                
+                <div class="form-group">
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text">$</span>
+                    </div>
+                  
+                    <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="exampleInputConfirmPassword2" class="col-sm-3 col-form-label">Discount</label>
+                  <div class="col-sm-9">
+                    <label class="switch">
+                      <input type="checkbox" >
+                      <span class="slider"></span>
+                    </label>
+                  </div>
+                </div>
+              
+                  <div class="form-group row">
+                    <label class="col-sm-3 col-form-label">Language</label>
+                    <div class="col-sm-9">
+                      <select class="form-control">
+                        <option>CHOOSE OPTION</option>
+                        <option>Italy</option>
+                        <option>Russia</option>
+                        <option>Britain</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                      <label for="exampleInputPassword2" class="col-sm-3 col-form-label">Meta Title</label>
+                      <div class="col-sm-9">
+                        <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Enter meta title" required>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleTextarea1">Meta description</label>
+                      <textarea class="form-control" id="exampleTextarea1" rows="4"></textarea>
+                    </div>
+                  <div class="form-group row">
+                      <label class="col-sm-3 col-form-label">Category</label>
+                      <div class="col-sm-9">
+                        <select class="form-control">
+                          <option>CHOOSE OPTION</option>
+                          <option>Italy</option>
+                          <option>Russia</option>
+                          <option>Britain</option>
+                        </select>
+                      </div>
+                    </div>
+              
+                
+                <button type="submit" class="btn btn-primary mr-2">Submit</button>
+              </form></div></div>
+              
+           
+</div>
+</div>
+</div>
+</div>
+       
+      </div>
+
+
+      
+		</div>
+
+    <script src="../static/js/res/jquery.min.js"></script>
+    <script src="../static/js/res/popper.js"></script>
+    <script src="../static/js/res/bootstrap.min.js"></script>
+    <script src="../static/js/res/main.js"></script>
+  </body>
+</html>

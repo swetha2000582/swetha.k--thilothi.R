@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<title>Masterio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+		
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="../static/css1/style.css">
+    <link rel="stylesheet" href="../static/css2/style.css">
+  </head>
+  <body>
+		
+		<div class="wrapper d-flex align-items-stretch">
+			<nav id="sidebar">
+				<div class="custom-menu">
+					<button type="button" id="sidebarCollapse" class="btn btn-primary">
+	          <i class="fa fa-bars"></i>
+	          <span class="sr-only">Toggle Menu</span>
+	        </button>
+        </div>
+	  		<h1><a href="index2.html" class="logo">Instructor Dashboard</a></h1>
+        <ul class="list-unstyled components mb-5">
+          <li>
+            <a href="index2.html"><span class="fa fa-dashboard" aria-hidden="true"></span>Dashboard </a>
+          </li>
+          <li>
+            <a href="#"><span class="fa fa-user  " aria-hidden="true"></span>media manager</a>
+        </li>
+          <li >
+            
+              <a class="nav-link" data-toggle="collapse" href="#page-layouts" aria-expanded="false" aria-controls="page-layouts">
+                <i class="fa fa-book " aria-hidden="true">Courses</i>
+                <span class="menu-title"></span>
+                <i class="menu-arrow"></i>
+              </a>
+              <div class="collapse" id="page-layouts">
+                <ul class="nav flex-column sub-menu">
+                  <li class="nav-item"> <a class="nav-link" href="addnewcourse.html">*start new course</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="courseview.html">*All courses</a></li>
+                  
+                </ul>
+              </div>
+          </li>
+         
+          <li>
+            <a class="nav-link" data-toggle="collapse" href="#sidebar-layouts" aria-expanded="false" aria-controls="sidebar-layouts">
+              <i class="fa fa-laptop" aria-hidden="true"></i>
+              <span class="menu-title">Zoom meeting</span>
+              <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="sidebar-layouts">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item"> <a class="nav-link" href="zoom.html">*Zoom Setup</a></li>
+                <li class="nav-item"> <a class="nav-link" href="">*Zoom Dashboard</a></li>
+                <li class="nav-item"> <a class="nav-link" href="">*Create Meeting</a></li>
+               
+
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="#"><span class="fa fa-question-circle " aria-hidden="true"></span> Quiz</a>
+          </li>
+          <li>
+            <a href="allstudent.html"><span class="fa fa-users" aria-hidden="true"></span>students </a>
+          </li>
+          <li>
+            <a href="#"><span class="fa fa-envelope" aria-hidden="true"></span>message</a>
+          </li>
+          <li>
+            <a href="coursecomment.html"><span class="fa fa-comments" aria-hidden="true"></span> comments</a>
+          </li>
+          <li>
+            <a href="#"><span class="fa fa-dollar-sign" aria-hidden="true"></span>Request Payment</a>
+          </li>
+          <li>
+            <a href="#"><span class="fa fa-dollar-sign aria-hidden"></span>Earning history</a>
+          </li>
+          <li>
+            <a href="#"><span class="fa fa-envelope-open aria-hidden"></span>Support ticket</a>
+          </li>
+          <li>
+            <a href="#"><span class="fa fa-cog aria-hidden"></span>Setting</a>
+          </li>
+          <li>
+            <a href="#"><span class="fa fa-question-circle aria-hidden"></span>Forum manager</a>
+          </li>
+          <li>
+            <a href="#"><span class="fa fa-list aria-hidden"></span>Subscription manager</a>
+          </li>
+         
+        </ul>
+
+    	</nav>
+        <!-- Page Content  -->
+      <div id="content" class="p-4 p-md-5 pt-5">
+        <form>
+          <h3>
+              zoom setup
+          </h3>
+          <div class="form-group">
+              <p> <h5>Update zoom token and mail: </h5><br>
+                <h5>  Zoom E-mail:</h5></p>
+              <input type="password" class="form-control form-control-lg" id="exampleInputPassword1" placeholder="Password">
+            </div>
+            <div class="form-group">
+              <p> <h5>zoom JWT token  <br>
+              </h5></p>
+              <input type="password" class="form-control form-control-lg" id="exampleInputPassword1" placeholder="sdvsdvsv">
+            </div>
+            <button class="btn btn-primary"><i class="fa fa-save aria-hidden"></i>  Save</button></form>
+            <center>
+          <div class="rasper">
+              <div class="col-lg-6 grid-margin stretch-card" >
+                <div class="card" >
+                  <div class="card-body" >
+                    <h4 class="card-title"><i class="fa fa-question-circle" aria-hidden="true"></i>How to get JWT Token and E-mail:</h4>
+                    
+                    <div class="mt-4">
+                      <div class="accordion" id="accordion" role="tablist">
+                        <div class="card">
+                          <div class="card-header" role="tab" id="heading-1">
+                            <h6 class="mb-0">
+                              <a >
+                                  <p> STEP-1:   First Sign Up or Sign In here<code>.Zoom Market Place Portal</code></p><br>
+                                  <p> STEP-2:  Click On Top right side menu and click on build app:<code>.Create App</code></p><br>
+                                  <p> STEP-3:   Choose JWT App and Continue,,,<code></code></p><br>
+                                  <p> STEP-4:  After filling details click on credential tab and bottom you will see JWT TOKEN change token expiry according to your setting.<code></code></p><br>
+                                  <p> STEP-5:  Paste your zoom email account id and JWT token here and create,edit meeting here<code></code></p><br>
+        
+                              </a>
+                            </h6>
+                           
+                          </div>
+                          
+                        </div></div></div></div></div></div></center>
+                      
+        </div>
+        </div>
+       
+      </div>
+
+
+      
+		</div>
+
+    <script src="../static/js/res/jquery.min.js"></script>
+    <script src="../static/js/res/popper.js"></script>
+    <script src="../static/js/res/bootstrap.min.js"></script>
+    <script src="../static/js/res/main.js"></script>
+  </body>
+</html>
